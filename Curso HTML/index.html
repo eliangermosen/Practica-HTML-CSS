@@ -541,6 +541,55 @@
         <br>
         <input type="reset">
     </form>
+    <h4>Selects, Radios & Checkbox</h4>
+    <form>
+        <p>Elige tu idioma:</p>
+        <select name="idioma" required>
+            <!-- selected para que inicie en una opcion en especifico. -->
+            <option value="" selected>Elige una opcion</option>
+            <option value="es">Espanol</option>
+            <option value="en">Ingles</option>
+            <option value="fr">Frances</option>
+            <option value="it">Italiano</option>
+            <option value="pt">Portugues</option>
+        </select>
+        <p>Elige tu lenguaje de programacion favorito:</p>
+        <input type="radio" name="lenguaje" id="radio-js" value="js" checked>
+        <label for="radio-js">JavaScript</label>
+        <input type="radio" name="lenguaje" id="radio-py" value="py" required>
+        <label for="radio-py">Python</label>
+        <input type="radio" name="lenguaje" id="radio-php" value="php">
+        <label for="radio-php">PHP</label>
+        <p>Elige tus gustos:</p>
+        <label>
+            <input type="checkbox" name="interes" value="deportes" checked>
+            Deportes
+        </label>
+        <label>
+            <input type="checkbox" name="interes" value="finanzas">
+            Finanzas
+        </label>
+        <label>
+            <input type="checkbox" name="interes" value="salud">
+            Salud
+        </label>
+        <label>
+            <input type="checkbox" name="interes" value="politica">
+            Politica
+        </label>
+        <label>
+            <input type="checkbox" name="interes" value="ecologia" checked>
+            Ecologia
+        </label>
+        <p>
+            <label>
+                <input type="checkbox" name="terminos" required>
+                Aceptas los terminos y condiciones?
+            </label>
+        </p>
+        <input type="submit">
+        <input type="reset">
+    </form>
     <br>
     <a href="index.html#inicio">☝️</a>
     <hr>
