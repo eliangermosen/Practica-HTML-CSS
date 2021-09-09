@@ -517,6 +517,31 @@
         <option value="">PYTHON</option>
     </select>
     <br>
+    <input type="text" value="Elianmtg" readonly disabled>
+    <br>
+    <input type="text" placeholder="Escribe tu Apellido">
+    <br>
+    <h3>Ejemplo de formulario:</h3>
+    <h4>Formulario de login</h4>
+    <!-- action: hacia donde se enviara la informacion del formulario. -->
+    <!-- metodos get y post los mas importantes de un formulario -->
+    <!-- autocomplete para que no recargue la cache de correos, etc.. -->
+    <form action="https://jonmircha.com/" method="POST" autocomplete="off">
+        <!-- for en un label hace referencia  -->
+        <label for="usuario">Usuario: </label>
+        <!-- name: nombre de variable para cada input en este caso -->
+        <!-- id es el nombre de vincular para el for del label -->
+        <input type="text" name="usuario" id="usuario" placeholder="Escribe tu Usuario" pattern="^[A-Za-z]+$"
+            title="El campo solo acepta letras." required>
+        <br>
+        <label for="contrasena">Contrasena: </label>
+        <input type="password" name="contrasena" id="contrasena" placeholder="Escribe tu Contrasena" required>
+        <br>
+        <input type="submit">
+        <br>
+        <input type="reset">
+    </form>
+    <br>
     <a href="index.html#inicio">☝️</a>
     <hr>
     <br><br><br><br><br><br><br><br><br><br>
