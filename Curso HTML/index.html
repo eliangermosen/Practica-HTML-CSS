@@ -590,6 +590,20 @@
         <input type="submit">
         <input type="reset">
     </form>
+    <h4>Formulario de Contacto:</h4>
+    <!-- https://formsubmit.co/ -->
+    <!-- esto para enviar informacion ingresada en un formulario -->
+    <form action="https://formsubmit.co/your@gmail.com" method="POST">
+        <input type="text" name="nombre" placeholder="Escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+            title="Nombre solo acepta letras y espacios en blanco" required>
+        <br>
+        <input type="email" name="correo" placeholder="Escribe tu correo" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+            title="Formato de correo invalido" required>
+        <br>
+        <textarea name="comentarios" cols="30" rows="10" required></textarea>
+        <br>
+        <input type="submit">
+    </form>
     <br>
     <a href="index.html#inicio">☝️</a>
     <hr>
