@@ -19,3 +19,42 @@ h1 {
   color: orangered;
   background-color: black;
 }
+
+/* 
+Existen 3 selectores basicos:
+1-etiquetas : son elemntos html
+2-identificadores : atributo id #
+3-clases atributo class al html | y en el css se llamaria con .
+*/
+
+/* Se le aplicaria a todos las etiquetas en este caso parrafos */
+p {
+  color: midnightblue;
+}
+
+/* Dar estilos con ID se considera AntiPatron */
+#parrafo-dos {
+  background-color: skyblue;
+}
+
+/* Lo mas recomendable son las clases debido a que se pueden reutilizar 
+y usar varias en en el html */
+.text-20 {
+  font-size: 20px;
+}
+
+.text-32 {
+  font-size: 32px;
+}
+
+.bg-skyblue {
+  background-color: skyblue;
+}
+
+.bg-steelblue {
+  background-color: steelblue;
+}
+
+.text-white {
+  color: white;
+}
