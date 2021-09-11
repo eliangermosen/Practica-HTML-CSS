@@ -74,3 +74,15 @@ y usar varias en en el html */
 .hijos-descendientes b {
   background-color: thistle;
 }
+
+/* los selectores de hermano general van a aplicar a los elementos 
+que son hermanos y que esten por debajo del elemento de referencia.*/
+.hermanos-general ~ li {
+  background-color: thistle;
+}
+
+/* aplicara los estilos al elemento que concida con el selector 
+y que este por debajo del referenciado. */
+.hermanos-adyacentes + li {
+  background-color: thistle;
+}
