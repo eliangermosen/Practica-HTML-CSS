@@ -64,3 +64,13 @@ y usar varias en en el html */
 .text-white {
   color: white;
 }
+
+/* se utiliza el mayor que > para identificar */
+.hijos-directos > li {
+  background-color: thistle;
+}
+
+/* se utiliza un espacio en blanco y el elemnto al cual se le quiere anadir estilo */
+.hijos-descendientes b {
+  background-color: thistle;
+}
