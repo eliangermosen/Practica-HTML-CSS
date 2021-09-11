@@ -6,11 +6,25 @@
     <meta http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso CSS</title>
+    <!-- invocacion del css de la forma adecuada-correcta (externo)-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css en html mediante el style dentro del head (interno)-->
+    <style>
+        h1 {
+            color: yellowgreen;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Aprendiendo CSS</h1>
-    <p><i>Cascading Style Sheets</i> - Hojas de Estilo en Cascada</p>
+    <!-- css en html (en linea)-->
+    <p>
+        <i style="font-weight: bold; color: orangered">
+            Cascading Style Sheets
+        </i>
+        - Hojas de Estilo en Cascada
+    </p>
 </body>
 
 </html>

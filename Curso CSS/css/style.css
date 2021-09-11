@@ -9,7 +9,13 @@ el elemplo de mas abajo es una regla css donde
 el h1 es el selector y lo que esta dentro de las 
 llaves es el bloque de declaraciones.
 */
+/* ---------------------------------------- */
+/* LLAMANDO LA OTRA HOJA DE CSS DENTRO DE ESTA,
+ES MALA PRACTICA USAR @IMPORT PORQUE SON BLOQUEANTES 
+A LA HORA DEL NAVEGADOR  LEER LA INSTRUCCION*/
+/* @import url(otra-hoja.css); */
+
 h1 {
   color: orangered;
-  background-color: skyblue;
+  background-color: black;
 }
