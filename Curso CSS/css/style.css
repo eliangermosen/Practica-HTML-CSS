@@ -86,3 +86,43 @@ y que este por debajo del referenciado. */
 .hermanos-adyacentes + li {
   background-color: thistle;
 }
+
+/* selectores de atributos */
+.selectores-atributos a[href] {
+  color: orangered;
+}
+
+.selectores-atributos a[target="_blank"] {
+  font-weight: bold;
+}
+/* El comodin del asterisco* aplica el estilo si 
+contiene el texto en cuestion en cualquier parte */
+.selectores-atributos a[href*="jonmircha"] {
+  font-size: 24px;
+}
+
+/* El comodin del ^ aplica el estilo siempre y cuando 
+comience con el texto en cuestion del inicio*/
+.selectores-atributos a[href^="http://"]
+{
+  text-decoration: none;
+}
+
+/* El comodin del $ aplica el estilo si contiene el texto
+en cuestion al final*/
+.selectores-atributos a[href$=".com"] {
+  background-color: black;
+}
+
+/* El comodin del ~ aplica el estilo si contiene el texto
+en cuestion en una lista separada por espacios*/
+.selectores-atributos a[class~="cursos"] {
+  background-color: midnightblue;
+}
+
+/* El comodin del | aplica el estilo si contiene el texto
+en cuestion en una lista separada por espacios y que despues 
+del texto en cuestion venga un guion medio - */
+.selectores-atributos a[class|="menu"] {
+  font-style: italic;
+}
