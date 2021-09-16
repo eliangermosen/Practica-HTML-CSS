@@ -172,3 +172,45 @@ posicion o estado del elemento*/
 #temario-css:target {
   background-color: lightgreen;
 }
+
+.lista-pseudoclases li:first-child {
+  color: green;
+}
+
+.lista-pseudoclases li:last-child {
+  color: violet;
+}
+
+.lista-pseudoclases li:nth-child(3) {
+  color: navy;
+}
+
+.lista-pseudoclases li:nth-child(4n) {
+  font-size: 20px;
+}
+
+.lista-pseudoclases li:nth-child(3n + 1) {
+  font-weight: bold;
+}
+
+.lista-pseudoclases li:nth-child(even) {
+  background-color: yellow;
+}
+
+.lista-pseudoclases li:nth-child(odd) {
+  background-color: orange;
+}
+
+.articulo-pseudoclases p:first-of-type {
+  background-color: pink;
+}
+.articulo-pseudoclases p:last-of-type {
+  background-color: violet;
+}
+.articulo-pseudoclases p:nth-of-type(2) {
+  background-color: fuchsia;
+}
+
+.articulo-pseudoclases *:not(p) {
+  background-color: beige;
+}
