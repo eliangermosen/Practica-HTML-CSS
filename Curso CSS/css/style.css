@@ -278,11 +278,20 @@ ocasiones se sobreescriben las reglas CSS.
   2) La Especificidad.
   3) La Herencia.
 
-  La Cascada es el mecanismo en que el navegador aplica los estilos. Y toma en cuenta lo siguiente en este orden:
+  La Cascada es el mecanismo en que el navegador aplica los estilos.
+  Y toma en cuenta lo siguiente en este orden:
   1) El Origen del Código:
     - El User Agent (los estilos por defecto del navegador)
     - Personalizaciones del usuario.
     - Los estilos del autor.
   2) La Especificidad del Selector
   3) Orden de Aparición
+
+  La Especificidad es el peso que tiene un selector cuando hay
+  conflicto de estilos. Se calcula de la siguiente forma:
+  Etiquetas y pseudoelementos -------------- 0,0,0,1
+  Clases, atributos y pseudoclases ------------0,0,1,0
+  Identificadores -------------------------------0,1,0,0
+  Estilos en línea--------------------------------1,0,0,0
+  !important ------------------Rompe la especificidad
 */
