@@ -327,4 +327,26 @@ blockquote#cita-marco {
 /* !important no es una buena practica */
 .cita-marco {
   background-color: moccasin !important;
+  font-size: 32px;
+  border-style: dotted;
+  border-color: red;
+}
+
+/* La Herencia, es la capacidad de un selector de obtener 
+(heredar) los valores de sus ancestros más cercanos, para 
+aplicarla se usa el valor inherit, si queremos evitarla 
+podemos asignar otro valor o inicializar la propiedad en 
+cuestión con el valor initial
+
+https://web.dev/learn/css/inheritance/#which-properties-are-inheritable
+
+ */
+
+.cita-marco cite {
+  background-color: pink;
+  background-color: inherit;
+  font-size: 22px;
+  font-size: initial;
+  border-style: inherit;
+  border-color: inherit;
 }
