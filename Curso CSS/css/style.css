@@ -295,3 +295,36 @@ ocasiones se sobreescriben las reglas CSS.
   Estilos en línea--------------------------------1,0,0,0
   !important ------------------Rompe la especificidad
 */
+
+blockquote#cita-marco.cita-marco {
+  background-color: lightsteelblue;
+}
+
+blockquote {
+  background-color: burlywood;
+}
+
+#cita-marco {
+  background-color: lightgreen;
+}
+
+blockquote.cita-marco {
+  background-color: tomato;
+}
+
+.cita-marco {
+  background-color: cornflowerblue;
+}
+
+.cita-marco {
+  background-color: mediumaquamarine !important;
+}
+
+blockquote#cita-marco {
+  background-color: lightsalmon;
+}
+
+/* !important no es una buena practica */
+.cita-marco {
+  background-color: moccasin !important;
+}
