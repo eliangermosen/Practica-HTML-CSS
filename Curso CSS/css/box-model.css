@@ -18,6 +18,8 @@ tendra 4 lados.
 */
 
 h1 {
+  width: 400px;
+  height: 200px;
   border-width: 3px;
   border-style: solid;
 }
