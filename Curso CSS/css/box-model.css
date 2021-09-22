@@ -17,6 +17,10 @@ tendra 4 lados.
 4.Izquierda (left)
 */
 
+body {
+  margin: 0;
+}
+
 h1 {
   width: 400px;
   height: 200px;
@@ -27,4 +31,35 @@ h1 {
   border-style: solid; /*solid-dashed-dotted*/
   border: 2px dashed blue; /*forma corta*/
   /*MAS ESTILOS: https://cssreference.io/property/border-style/ */
+}
+
+.caja-uno,
+.caja-dos {
+  background-color: chocolate;
+  border: medium solid orange;
+  /* 
+  Esto aplica para Marging & Padding 
+  *1 valor = aplicar 4 lados
+  *2 valores = 
+  primer valor para los lados verticales(top&botton)
+  segundo valor es para los lados horizontales (left&right)
+  *3 valores=
+  primer valor es para top
+  segundo valor es para los lados horizontales(left&right)
+  tercer valor es para botton
+  *4 valores= piensa en las manesillas del reloj
+  primer valor es para top (12)
+  segundo valor es para right (3)
+  tercer valor es para botton (6)
+  cuarto valor es para left (9)
+  */
+  /* padding dentro - margin fuera */
+  padding: 20px;
+  margin: 20px;
+  padding: 20px 40px;
+  margin: 40px 20px;
+  padding: 0 40px 20px;
+  margin: 50px 30px 0;
+  padding: 0 40px 20px 50px;
+  margin: 100px 50px 30px 0;
 }
