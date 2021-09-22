@@ -350,3 +350,13 @@ https://web.dev/learn/css/inheritance/#which-properties-are-inheritable
   border-style: inherit;
   border-color: inherit;
 }
+
+/* 
+https://autoprefixer.github.io/
+https://caniuse.com/
+Prefijos de los navegadores
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+*/
