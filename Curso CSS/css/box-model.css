@@ -20,6 +20,11 @@ tendra 4 lados.
 h1 {
   width: 400px;
   height: 200px;
-  border-width: 3px;
-  border-style: solid;
+  /* Propiedades de tipo ShoortHand */
+  border-color: green;
+  border-top-color: red;
+  border-width: thick; /*thin = 1px; medium = 3px; thick = 5px; */
+  border-style: solid; /*solid-dashed-dotted*/
+  border: 2px dashed blue; /*forma corta*/
+  /*MAS ESTILOS: https://cssreference.io/property/border-style/ */
 }
