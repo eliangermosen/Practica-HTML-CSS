@@ -92,8 +92,41 @@ Caja de Bloque:
 
 .caja-bloque {
   margin: 32px;
+  display: block;
 }
 
 .caja-linea {
   margin: 48px;
+  display: inline;
+}
+
+/* 
+Propiedad Display
+  inline
+  block
+  inline-block - Se comporta como un elemento de línea pero 
+  acepta modificar sus dimensiones (alto y ancho)
+  none
+  table
+  list-item
+  flex
+  grid
+*/
+
+.caja-none,
+.caja-linea-bloque {
+  background-color: darkolivegreen;
+  color: white;
+  /* padding: 0 16px; */
+  width: 600px;
+  height: 300px;
+  border: medium solid black;
+}
+
+.caja-linea-bloque {
+  display: inline-block;
+}
+
+.caja-none {
+  display: none;
 }
