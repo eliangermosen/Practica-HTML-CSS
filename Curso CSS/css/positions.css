@@ -125,3 +125,32 @@ cuando el scroll se mueva el elemento no lo hara, queda FIJO.*/
   top: 30px;
   left: 400px;
 }
+
+/* sticky: es un combinación de posicionamiento relative 
+y fixed, para este posicionamiento las propiedades de top,
+left, bottom y right no mueven el elemento, sirven como un
+punto de referencia, mientras no lleguen a ese valor el 
+elemento se comporta como relative, cuando llega se 
+convierte en fixed.
+
+Para que este comportamiento funcione el elemento sticky 
+debe ser hijo directo del body o su elemento contenedor 
+debe tener dimensiones definidas y sólo será sticky dentro
+de las dimensiones de su contenedor padre.  */
+
+.sticky {
+  background-color: lightskyblue;
+  position: sticky;
+  top: 50px;
+}
+
+.sticky-parent {
+  border: thin dashed black;
+  height: 600px; /* OBLIGATORIO EN EL PARENT */
+}
+
+.sticky-child {
+  background-color: lightslategray;
+  position: sticky;
+  top: 75px;
+}
