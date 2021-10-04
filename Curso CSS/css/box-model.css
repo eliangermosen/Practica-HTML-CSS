@@ -228,3 +228,16 @@ html {
   margin-right: 16px;
   margin-left: 16px;
 }
+
+/* Centrado de Cajas */
+
+.sitio-web {
+  border: thin solid black;
+  background-color: thistle;
+  width: 800px;
+  height: 1000px;
+  padding: 16px;
+  /* text-align: center;  */ /* centra el contenido que tiene la caja no la caja */
+  margin-left: auto;
+  margin-right: auto; /* Centrar caja mejor manera con margin left y right*/
+}
