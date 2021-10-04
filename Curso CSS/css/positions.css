@@ -109,3 +109,19 @@ del documento HTML.
   top: -50px;
   left: -30px;
 }
+
+/* fixed: el elemento pierde sus dimensiones y posicion 
+original en el flujo del documento. Si se mueve toma como
+referencia el documento HTML y queda fijo en la posicion,
+cuando el scroll se mueva el elemento no lo hara, queda FIJO.*/
+
+.fixed {
+  background-color: lightgreen;
+  position: fixed;
+  width: 300px;
+  height: 100px;
+  /* right: 20px;
+  bottom: 10px; */
+  top: 30px;
+  left: 400px;
+}
