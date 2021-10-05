@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  /* padding-top: 50px; */
+  /* Evitar que se tape el contenido que esta por debajo 
+  del fixed */
+}
+
+.header {
+  background-color: mistyrose;
+  width: 100%;
+  height: 50px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  /* mejor opcion para cabeceras (header)*/
+}
+
+.hero-image {
+  background-color: palegoldenrod;
+  width: 100%;
+  height: 100vh;
+}
